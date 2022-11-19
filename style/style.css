@@ -1,0 +1,57 @@
+body{
+    margin:-16px;
+}
+/* header */
+        .menu div a:hover, .naBar a:hover{
+        color: rgb(71, 59, 59);
+        }
+        .free{
+            background-color:rgb(37, 37, 122);
+            color: rgb(245, 245, 245);
+            width: 100%;
+            height: 40px;
+            text-align: center;
+        }
+        .menu {
+            margin-top: 15px;
+            display: flex;
+        }
+        .menu img{
+            cursor: pointer;
+            margin-left: 10px;
+        }
+        .menu div{
+            margin: auto;
+        }
+        .naBar li, a{
+        text-decoration: none;
+        color: black;
+        list-style: none;
+        margin: auto;
+        }
+        .naBar ul{
+            margin-left: 13%;
+            display: flex;
+            width: 70%;
+        }
+
+
+/* footer */
+.commit{
+    background-color: rgb(43, 43, 43);
+    display: flex;
+    color: white;
+    height: 80px;
+}
+.commit div{
+    margin: auto;
+}
+
+.container input {
+    outline: 0;
+    width: 300px;
+    border-width: 0 0 0.5px ;
+    border-color: rgb(0, 0, 0)
+  }
+
+
