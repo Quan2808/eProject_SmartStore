@@ -1,137 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-    <link rel="stylesheet" href="style/style.css">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <script src="javascrip/angular.min.js"></script>
 </head>
 
-<body >
+<body ng-app>
    <!-- header -->
-<div class="header" >
-   <div class="free">
-        <p >Free Delivery within Singapore $25
-            minium purchase
-        </p>
-   </div>
-   <div class="possition">
-        <div class="menu">
-                <div class="locationStore">
-                    <a href=""><img src="image/location.png"> Find a store</a>
-                </div>
-                <div>
-                    <a href="" style="font-size: 40px;">IORA</a>
-                </div>
-                <div>
-                    <span style="font-size: 22px;cursor: pointer;">&#x2661</span>
-                    <img style="width:16px; height:16=px" src="image/shopping-cart.png">
-                    <img style="width:16px; height:16px" src="image/user.png">
-                    <img style="width:16px; height:16px" src="image/search.png">
-                </div>
-        </div>
-        <div class="naBar">
-            <ul>
-                <li><div class="dropdown">
-                    <div class="dropbtn">IORA</div>
-                    <div class="dropdown-content">
-                      <a href="#">Link 1</a>
-                      <a href="#">Link 2</a>
-                      <a href="#">Link 3</a>
-                    </div>
-                  </div></li>
-                <li><a href="">LALU</a></li>
-                <li><a href="">ACCESSORIES</a></li>
-                <li><a href="">ONLINE EXCLUSIVE</a></li>
-                <li><a href="">SALE</a></li>
-                <li><a href="">BUNDLE DEAL</a></li>
-                <li><a href="">BACK IN STOCK</a></li>
-                <li><a href="">STORIES</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div style="height: 100px;"></div>
+   <div ng-include="'header.html'"></div>
 
    <!-- body -->
-   <div ng-app style="margin-top: 25px;">
-       <div ng-include="'Body.html'"></div>
-   </div>
+   <div ng-include="'body1.html'"></div>
+   <div ng-include="'body2.html'"></div>
+
    <!-- footer -->
-<div>
-    <h2 style="text-align:center ;">ONLINE SHOPPING SINGAPORE</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                Singapore’s fashion forward online clothing brand iORA started its humble beginnings here in sunny Singapore. This online clothing boutique have a specialty for women’s apparel. With plans to finally start their own online clothing store in Singapore, the company established iORA as a fashion brand in 1998 at White Sands Shopping Mall at Pasir Ris Town as their flagship store. <br>
- <br>               
-                As the company became increasingly popular, iORA expanded its business islandwide and has gathered quite an international presence overseas – with 28 retail outlets in Asia. To cater to the increasing demand for online shopping for clothes in Singapore, iORA has launched their online site – offering islandwide shipping. <br>
-    <br>            
-                Known for its wide range of products that are not only chic but also, pocket-friendly – iORA is one of the most affordable online clothing stores in Singapore. Offering a wide range of quality wear from work outfits to smart casual styles, iORA is definitely your one-stop destination for all your clothing needs. iORA designs its minimalistic and versatile clothing here in our sunny island.</div>
-            <div class="col-sm-6">Throughout the years, iORA has also branched out its products to cater to different age groups. With iORA being their main clothing line catered for stylish and modern women. Known for their timeless and versatile clothing line for working ladies. Lalu caters to their younger audience where they are known for their bright and trendy styles. With Sora next in line, offering a wide range of shoes, bags and accessories for you to choose from.
-<br><br>
-                With more than 10 retail outlets islandwide, iORA is one of Singapore’s authentic online clothing brands. This stylish online clothing store covers all your essential clothing needs – from their wide range of tops to bottoms, skirts, dresses, knitwear and outerwear. With comfort and quality as their top priority, dress and carry yourself with confidence with iORA.</div>
-        </div>
-    </div>
-</div>
-<div>
-    <div class="commit">
-        <div><img src="image/return.png" alt=""> 30-day Retail Exchange</div>
-        <div><img src="image/box.png" alt=""> Click andColect</div>
-        <div><img src="image/lock.png" alt=""> Secure Checkout</div>
-        <div><img src="image/offline.png" alt=""> Worldwide Shipping</div>
-    </div>
-    <div class="container">
-        <div class="row">
-            <div class="box1 col-sm-8">
-                <h2>Sign up for our Newsletter</h2>
-                <p>Be the first to know about our product launch and exclusive deals.</p>
-                <input  type="email"  placeholder="Email Address *">
-            </div>
-            <div class="box2 col-sm-4">
-                <p>
-                    <a href=""> ABOUT US </a>
-                    <a href="">  CONTACT US</a>
-                    <a href="">STORES</a>
-                    <a href=""> STORIES</a>
-                    <a href=""> ON-GOING PROMOTIONS</a>
-                    <a href=""> CAMPAIGNS </a>
-                    <a href=""> CAREERS</a>
-                    <a href=""> SIZE GUIDE</a>
-                    <a href="">RETURNS & EXCHANGE</a>
-                    <a href=""> DELIVERY METHODS & COSTS</a>
-                </p>
-                <div>
-                    <a href=""><img src="image/phone-call.png" alt=""></a>
-                    <a href=""><img src="image/paper-plane.png" alt=""></a>
-                    <a href=""><img src="image/facebook.png" alt=""></a>
-                    <a href=""><img src="image/instagram.png" alt=""></a>
-                </div>
-            </div>
-            <p>
-                Copyright © 2022 iORA SINGAPORE, all rights reserved. <br>
-                Terms of Service | Privacy Policy | Cookies Policy
-            </p>
-            <div><img src="image/logofooter.PNG" alt=""></div>
-        </div>
-    </div>
-
-</div> 
-
+   <div ng-include="'footer.html'"></div>
 </body>
 <script src="javascrip/js.js"></script>
 <script>
 </script>
 </html>
 
-
-</body>
-</html>
