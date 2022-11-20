@@ -1,0 +1,19 @@
+.text_center
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card ul
+{
+    display: flex;
+}
+.card ul li
+{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+}
+p { margin:0 }
