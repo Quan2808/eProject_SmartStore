@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/header.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  
     <title>Document</title>
 </head>
 <body>
@@ -17,16 +21,52 @@
         <div class="possition">
              <div class="menu">
                      <div class="locationStore">
-                         <a href=""><img  style="width: 26px;height:26px"  src="image/location.png"> Find a store</a>
+                        <span style="position: absolute;margin: -5px 0px 0px -36px;">
+                          <img  style="width: 26px;height:26px;"src="image/location.png">
+                        </span> 
+                       <a href="./findStore.html"> Find a store</a>
                      </div>
                      <div>
-                         <a href="" style="font-size: 40px;">IORA</a>
+                         <a href="./index.html" style="font-size: 40px;">IORA</a>
                      </div>
                      <div>
-                         <span style="font-size: 22px;cursor: pointer;">&#x2661</span>
-                         <img style="width:16px; height:16=px;" src="image/shopping-cart.png">
-                         <img style="width:16px; height:16px" src="image/user.png">
-                         <img style="width:16px; height:16px" src="image/search.png">
+                        <a href="./favourite.html"> <span style="font-size: 22px;cursor: pointer;">&#x2661</span></a>
+                         <a href="./shoppingCart.html"><img style="width:16px; height:16=px;" src="image/shopping-cart.png"></a>
+                         <a href="./login.html"> <img style="width:16px; height:16px" src="image/user.png"></a>
+                         <img style="width:16px; height:16px; " src="image/search.png"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+
+                      
+                            <!-- Button trigger modal -->
+                             
+                            
+
+                            <!-- Modal -->
+                            <div 
+                            class="modal fade" id="staticBackdrop"
+                             data-bs-backdrop="static" data-bs-keyboard="false"
+                              tabindex="-1" aria-labelledby="staticBackdropLabel"
+                               aria-hidden="true">
+                              <div class="modal-dialog">
+                                <div style="width: 300%; height: 300px;padding-top: 80px; margin-left:-470px" class="modal-content">
+                                  <button style="margin-left: 90%;" type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                  <div class="modal-header">
+                                    <h7 style=""  id="staticBackdropLabel">WHAT ARE YOU LOOKING FOR?</h7>
+                                  
+                                  </div>
+                                  <div class="modal-body">
+                                   <div > <input type="text"  placeholder="search products..."
+                                     style="width: 1000px;height: 50px;font-size: 30px;
+                                     border-style: hidden; border-bottom-style: solid ;">
+                                     </div>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">find</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
                      </div>
              </div>
              <div class="naBar">

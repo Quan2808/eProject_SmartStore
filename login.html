@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascrip/angular.min.js"></script>
+    <!-- CSS only -->
+  <title>Document</title>
+</head>
+<body ng-app>
+    <!-- header -->
+    <div ng-include="'header.html'"></div>
+    <!-- body -->
+    <h1 style="text-align:center ;">Login /<a href="" style="text-decoration:none"><span style="color: gray;">register</span></a></h1>
+        <br>
+    <div style="margin-left: 37%;">
+        
+        EMAIL ADDRESS * <br>
+        <input style="height: 35px; width: 350px;" type="text" > <br><br>
+        PASSWORD * <br>
+        <input style="height: 35px; width: 350px;" type="password" >
+        <br>
+        <br>
+        <button style="width:350px; height: 40px;
+         background-color: rgb(31, 30, 30);color: white;">LOGIN</button>
+        <br>
+        <br>
+        <input type="checkbox" >REMEMBER ME 
+        <div style="position: absolute ;margin-left: 170px
+        ; margin-top: -20px;"><a style="text-decoration:none; color:black" href="">LOST YOUR PASSWORD?</a>
+        </div><br>
+        <div>Use a social account for faster login or easy registration.</div>
+        <div>
+            <a href=""><img style="width:168px; height: 40px ;" src="image/loginfacebook.png" alt=""></a>
+            <a href=""><img style="width:168px; height: 40px ;
+                margin-left: 10px;" src="image/logingoogle.png" alt=""></a>
+        </div>
+    </div>
+    <br><br>
+   
+        <!-- footer -->
+    <div ng-include="'footer.html'"></div>
+</body>
+</html>
