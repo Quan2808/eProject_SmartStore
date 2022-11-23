@@ -27,7 +27,7 @@ img{
 }
 .text{
     color: black;
-    text-decoration: none;
+    list-style: none;
 }
 .text:hover{
     color: rgb(179, 179, 179);
