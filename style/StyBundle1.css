@@ -1,5 +1,7 @@
 .title {
     list-style-type: none;
+    font-size:x-small;
+    margin-left: 45px;
 }
 .title a{
     color: black;
