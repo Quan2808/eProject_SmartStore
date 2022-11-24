@@ -7,6 +7,7 @@
 }
 .title a:hover{
     color: rgb(179, 179, 179);
+    text-decoration: none;
 }
 .select{
     float: right;
@@ -31,7 +32,7 @@ img{
 }
 .text:hover{
     color: rgb(179, 179, 179);
-
+    text-decoration: none;
 }
 .card-bundle-deal{
     transition: transform.2s;

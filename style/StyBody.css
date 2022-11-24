@@ -53,3 +53,10 @@ img{
   .hienThi{
     display:block;
   }
+  .text:hover{
+    text-decoration: none;
+    color: rgb(179, 179, 179); 
+  }
+  .text{
+    color: black;
+  }

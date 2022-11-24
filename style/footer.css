@@ -38,6 +38,16 @@
 .row div img{
     margin: 10px 0px 0px 10px;
 }
+.btn-custom-light{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.5px;
+}
+.btn-custom-light:hover{
+    background-color: black;
+    color: white;
+}
 
 
 
