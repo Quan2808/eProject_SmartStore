@@ -81,3 +81,14 @@ body{
           .dropdown:hover .dropdown-content {display: block;}
           
           .dropdown:hover .dropbtn {color: rgb(179, 179, 179);}
+          .nav{
+            display: inline;
+            float: right;
+            margin-left: 100px;
+          }
+          .nav a{
+            margin-right: 30px;
+          }
+          .nav1{
+            margin-top: 5px;
+          }
