@@ -15,68 +15,65 @@
 <body ng-app>
     <div ng-include="'header.html'"></div>
      <br>
-    <div style="text-align: center; font-family: 'Times New Roman', Times, serif;">
-        <h3> <b>ACCESSORIES</b></h3>
-    </div>
-    <br>
-    <br>
-    <br>
-    <div>
-        <nav>
+     <div class="container">
+        <div style="text-align: center; font-family: 'Times New Roman', Times, serif;">
+            <h3> <b>ACCESSORIES</b></h3>
+        </div>
+        <br>
+        <br>
+        <br>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="accessories.html">ACCESSORIES</a></li>
+              <li class="breadcrumb-item active" aria-current="page">SHOES</li>
+            </ol>
+          </nav>
+        <div class="Card border-0">
             <ul>
-                <li class="title"><a href="index.html"> HOME /ACCESSORIES</a>
-                    <select class="select">
-                        <option value="0">SORT BY LATEST</option>
-                        <option value="1">SORT BY PRICE:LOW TO HIGH</option>
-                        <option value="2">SORT BY PRICE:HIGH TO LOW</option>
-                    </select>
-                </li> 
+                <li>
+                    <div class="card container border-0" style="width: 24rem;">
+                        <a href="#"><img class="card-bundle-deal" src="https://iora.online/sg/wp-content/uploads/80284-BLACK-1-1365x2048.jpg.webp"alt="card-bundle-deal" ></a>
+                        <div class="card-body">
+                          <p class="card-text"><a href="" class="text" >Tie Detail Pointed Shoes</a></p>
+                          <p class="card-text">S$ 19.90</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card container border-0" style="width: 24rem;">
+                        <a href="#"><img class="card-bundle-deal" src="https://iora.online/sg/wp-content/uploads/80265-VERMEIL-1365x2048.jpg.webp" alt="card-bundle-deal"></a>
+                        <div class="card-body">
+                          <!-- <p class="card-text" style="font-size: small;"><b>iORA COLLECTION</b> </p> -->
+                          <p class="card-text"><a href="" class="text">Crisscross Sandals</a></p>
+                          <p class="card-text">S$ 33.90</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card container border-0" style="width: 24rem;">
+                        <a href="#"><img class="card-bundle-deal" src="" ></a>
+                        <div class="card-body">
+                          <!-- <p class="card-text" style="font-size: small;"><b>iORA COLLECTION</b> </p> -->
+                          <!-- <p class="card-text"><a href="" class="text"></a></p>
+                          <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card container border-0" style="width: 24rem;">
+                        <a href="#"><img class="card-bundle-deal" src="" ></a>
+                        <div class="card-body">
+                          <!-- <p class="card-text" style="font-size: small;"><b>iORA COLLECTION</b> </p> -->
+                          <!-- <p class="card-text"><a href="" class="text"></a></p>
+                          <p class="card-text"></p> -->
+                        </div>
+                    </div>
+                </li>
             </ul>
-        </nav>
-    </div>
-    <div class="Card border-0">
-        <ul>
-            <li>
-                <div class="card container border-0" style="width: 24rem;">
-                    <a href="#"><img class="card-bundle-deal" src="https://iora.online/sg/wp-content/uploads/80284-BLACK-1-1365x2048.jpg.webp"alt="card-bundle-deal" ></a>
-                    <div class="card-body">
-                      <p class="card-text"><a href="" class="text" >Tie Detail Pointed Shoes</a></p>
-                      <p class="card-text">S$ 19.90</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="card container border-0" style="width: 24rem;">
-                    <a href="#"><img class="card-bundle-deal" src="https://iora.online/sg/wp-content/uploads/80265-VERMEIL-1365x2048.jpg.webp" alt="card-bundle-deal"></a>
-                    <div class="card-body">
-                      <!-- <p class="card-text" style="font-size: small;"><b>iORA COLLECTION</b> </p> -->
-                      <p class="card-text"><a href="" class="text">Crisscross Sandals</a></p>
-                      <p class="card-text">S$ 33.90</p>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="card container border-0" style="width: 24rem;">
-                    <a href="#"><img class="card-bundle-deal" src="" ></a>
-                    <div class="card-body">
-                      <!-- <p class="card-text" style="font-size: small;"><b>iORA COLLECTION</b> </p> -->
-                      <!-- <p class="card-text"><a href="" class="text"></a></p>
-                      <p class="card-text"></p> -->
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="card container border-0" style="width: 24rem;">
-                    <a href="#"><img class="card-bundle-deal" src="" ></a>
-                    <div class="card-body">
-                      <!-- <p class="card-text" style="font-size: small;"><b>iORA COLLECTION</b> </p> -->
-                      <!-- <p class="card-text"><a href="" class="text"></a></p>
-                      <p class="card-text"></p> -->
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
+        </div>
+     </div>
+    
     <div ng-include="'footer.html'"></div>
 </body>
 </html>
