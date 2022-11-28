@@ -1,3 +1,9 @@
+#head h3{
+    text-align: center;
+}
+#head p{
+    text-align: center;
+}
 .title {
     list-style-type: none;
     font-size:x-small;
